@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pl_return_game">返回游戏</string>
+    <string name="pl_return">返回游戏</string>
+    <string name="pl_center">充值</string>
+    <string name="pl_pay_type">支付方式</string>
+    <string name="pl_zfb_type">支付宝充值</string>
+    <string name="pl_re_pay">重新购买</string>
+    <string name="pl_exit_pay">确定</string>
+    <string name="pl_bank_card">储蓄卡</string>
+    <string name="pl_visa">信用卡</string>
+    <string name="pl_phone_pay">手机充值卡</string>
+    <string name="pl_move_pay">移动充值卡充值</string>
+    <string name="pl_unicom_pay">联通充值卡充值</string>
+    <string name="pl_telcom_pay">电信充值卡充值</string>
+    <string name="pl_phone_pay_tip_no">充值卡序列号</string>
+    <string name="pl_phone_pay_tip_sc">充值卡密码</string>
+    <string name="pl_phone_pay_sure">立即充值</string>
+    <string name="pl_phone_pay_tip_title">温馨提示</string>
+    <string name="pl_phone_pay_tip">1、充值卡支付为一次性支付，暂不支持分次支付。\n2、如果充值卡面额与本次购买商品价值不符，您将获得\n与充值卡面额相同的商品</string>
+    <string name="pl_account">账号： %2$s</string>
+    <string name="pl_goods">商品： %2$s</string>
+    <string name="pl_cost">价格： &lt;font color=&quot;#333333&quot;>##&lt;/font>元</string>
+    <string name="pl_pay_tip">请选择支付方式</string>
+    <string name="pl_pay_kefu_tip1">支付遇到任何问题请拨打</string>
+    <string name="pl_pay_kefu_tip2">游戏客服热线：&lt;font color=&quot;#8d0000&quot;>4006010706&lt;/font></string>
+    <string name="pl_pay_wait_tip">充值请求已接受，支付完成后，2-3分钟仍未入账，请尝试重启游戏。</string>
+    <string name="pl_pay_succ_tip">支付成功</string>
+    <string name="pl_pay_fail_tip">原因：未完成付款。请尝试重新支付</string>
+</resources>

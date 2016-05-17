@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.perasia.igame.MainView
+        android:id="@+id/main_main_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <WebView
+        android:id="@+id/ad_banner_wv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_ad_height"
+        android:layout_gravity="bottom"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/game_sdk_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="点我测试"
+        android:visibility="gone" />
+</LinearLayout>

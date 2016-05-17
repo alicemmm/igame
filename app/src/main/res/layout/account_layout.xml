@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="328dip"
+              android:layout_height="200dip"
+              android:background="@color/public_bg"
+        >
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_relative"
+            android:background="@color/text_white"
+            >
+        <TextView
+                android:text="@string/text_account_dialog_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/text_black_33"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                   android:background="@color/line"
+                   android:layout_alignParentBottom="true"
+                   android:layout_marginTop="5dip"/>
+    </RelativeLayout>
+    <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:cacheColorHint="#0000"
+            android:divider="@color/line"
+            android:dividerHeight="0.5dip"
+            android:scrollbars="none"
+            android:background="@color/text_white"
+            />
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line"
+            />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_relative"
+            android:id="@+id/cancel"
+            android:text="@string/cancel"
+            android:textSize="@dimen/text_default"
+            android:background="@drawable/rl_selector"
+            android:layout_alignParentBottom="true"
+            />
+</LinearLayout>

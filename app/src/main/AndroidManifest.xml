@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.perasia.igame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.webkit.permission.PLUGIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.webkit.permission.PLUGIN" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_2048"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GameActivity"
+            android:theme="@style/Theme.AppCompat"
+            />
+
+        <activity android:name="com.endless.game.android.activity.LoginActivity" />
+        <activity
+            android:name="com.endless.game.android.activity.RegisterActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.endless.game.android.activity.RegisterQuickActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="com.endless.game.android.activity.AgreeActivity" />
+        <activity
+            android:name="com.endless.game.android.activity.BindPhoneActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.endless.game.android.activity.ChangePhoneActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="com.endless.game.android.activity.InputPhoneCode" />
+        <activity android:name="com.endless.game.android.activity.UserCenter" />
+        <activity android:name="com.endless.game.android.activity.VerifyEmailActivity" />
+        <activity
+            android:name="com.endless.game.android.activity.BackPwdActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.endless.game.android.activity.SetNewPwd"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="com.endless.game.android.activity.UserInfo" />
+        <activity
+            android:name="com.endless.game.android.activity.ModifyNickActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="com.endless.game.android.activity.CityActivity" />
+        <activity
+            android:name="com.endless.game.android.activity.ResetPwd"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.endless.game.android.sdk.SelectLoginModeActivity"
+            android:theme="@style/DialogStyle" />
+        <activity android:name="com.endless.game.android.activity.CropImageActivity" />
+        <activity
+            android:name="com.endless.game.android.MainActivityDemo"
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.paycenter.ui.activity.PayListActivity"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity
+            android:name="com.paycenter.ui.activity.AlipayActivity"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity
+            android:name="com.paycenter.ui.activity.AfterPayActivity"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="com.paycenter.ui.activity.ProductListActivity" />
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+
+        <!-- alipay sdk end -->
+        <!-- 现在支付 -->
+        <activity
+            android:name="com.ipaynow.plugin.activity.PayMethodActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity
+            android:name="com.ipaynow.plugin.inner_plugin.prepay_plugin.activity.PrePayActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.ipaynow.plugin.inner_plugin.prepay_plugin.activity.NotifyActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"></activity>
+        <!-- 银联 -->
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.unionpay.uppay.PayActivityEx"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <activity
+            android:name="com.ipaynow.plugin.inner_plugin.wechatwp.activity.WeChatNotifyActivity"
+            android:configChanges="keyboardHidden|navigation|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <activity android:name="com.endless.game.android.activity.PayHistoryActivity"/>
+
+        <meta-data
+            android:name="ali_source"
+            android:value="endless" />
+        <meta-data
+            android:name="game_channel"
+            android:value="10001"></meta-data>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56f09e90e0f55a32ce001fcd" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="UMENG_CHANNEL" />
+
+    </application>
+
+</manifest>

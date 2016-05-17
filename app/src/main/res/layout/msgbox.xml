@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msgbox"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="100dp"
+    android:minWidth="200dp"
+    android:gravity="center"
+    android:padding="50dp"
+	android:background="@drawable/lianjie">
+	<ImageView 
+	    android:id="@+id/loadingpic"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/loading">
+	</ImageView>
+	<TextView
+	    android:id="@+id/msgboxmsg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:textSize="20sp"
+	    android:textColor="@color/tishi"
+	    android:text="连接中,请等待…" >
+	</TextView>  
+</LinearLayout>

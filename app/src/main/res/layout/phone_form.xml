@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/itemContainer"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+   	android:minHeight="60dip"
+	>
+
+    <EditText
+        android:id="@+id/card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dip"
+        android:hint="@string/pl_phone_pay_tip_no"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/card_ser"
+        android:layout_width="match_parent"
+         android:layout_margin="0dip"
+        android:layout_height="wrap_content"
+        android:hint="@string/pl_phone_pay_tip_sc"
+        android:ems="10" />
+
+    <TextView
+        android:layout_marginTop="40dip"
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dip"
+        android:gravity="center_vertical"
+        android:background="@color/pl_butoon_pressed"
+        android:text="@string/pl_phone_pay_sure" />
+
+</LinearLayout> 

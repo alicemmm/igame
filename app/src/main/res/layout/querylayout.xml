@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/public_bg">
+    <include layout="@layout/title"/>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:scrollbars="none">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                      android:orientation="vertical"
+                      android:layout_marginTop="10dip">
+            <RelativeLayout
+                    android:id="@+id/rl_title"
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    style="@style/public_padding">
+
+                <TextView
+                        android:text="@string/text_query_tip"
+                        style="@style/text_def"
+                        android:layout_alignParentLeft="true"
+                        />
+            </RelativeLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/line"/>
+            <EditText
+                    android:id="@+id/edt_query"
+                    android:layout_width="match_parent" android:layout_height="@dimen/btn_relative"
+                    android:background="@color/transparent"
+                    android:hint="@string/text_query_hint"
+                    android:paddingLeft="10dip"
+                    android:textColorHint="@color/text_pay"
+                    android:textSize="@dimen/text_default"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/text_black_33"
+                    />
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/line"/>
+            <RelativeLayout
+                    android:id="@+id/rl_query"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/btn_relative"
+                    android:clickable="false"
+                    android:gravity="center_vertical|center"
+                    android:background="@color/text_white"
+                    android:layout_marginTop="20dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="@dimen/text_default"
+                          android:text="@string/text_find"
+                          android:textColor="@color/text_def"
+                          android:id="@+id/txt_order_check"
+                        />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

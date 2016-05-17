@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/text_white"
+>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:text="订单:"
+                  android:id="@+id/txt_num"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:text="金额:"
+                  android:layout_below="@+id/txt_num"
+                  android:id="@+id/txt_amount"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:text="渠道:"
+                  android:layout_below="@+id/txt_amount"
+                  android:id="@+id/txt_channel"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:text="状态:"
+                  android:textColor="@color/text_black"
+                  android:id="@+id/txt_sus"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:text=""
+                  android:layout_below="@+id/txt_sus"
+                  android:id="@+id/txt_game"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:text=""
+                  android:layout_below="@+id/txt_game"
+                  android:id="@+id/txt_time"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+               android:background="@color/line"/>
+
+</LinearLayout>

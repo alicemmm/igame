@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+        >
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="66dip"
+                    android:id="@+id/zongle_toolbar_layout_right"
+                    android:background="@drawable/zongle_toolbar_right_bg"
+                    android:orientation="horizontal"
+                    android:paddingRight="25dip"
+                    android:paddingLeft="25dip"
+            >
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_gravity="center"
+                      android:orientation="vertical"
+                      android:id="@+id/actiongbar_layout_user_right"
+                      android:gravity="center_vertical"
+                      android:layout_toLeftOf="@+id/actiongbar_layout_gift_right"
+                >
+            <ImageView android:layout_width="36dip"
+                       android:layout_height="36dip"
+                       android:background="@drawable/sdk_toolbar_icon"
+                       android:layout_gravity="center_horizontal"
+                    />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="用户"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/img_1"
+                    android:gravity="center_horizontal"
+                    android:textColor="#444444"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_gravity="center"
+                      android:orientation="vertical"
+                      android:id="@+id/actiongbar_layout_gift_right"
+                      android:layout_marginLeft="20dip"
+                      android:gravity="center_vertical"
+                      android:layout_toLeftOf="@+id/actiongbar_layout_cs_right"
+                >
+            <ImageView android:layout_width="36dip"
+                       android:layout_height="36dip"
+                       android:background="@drawable/sdk_toolbar_icon"
+                       android:layout_gravity="center_horizontal"
+                    />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:text="礼包"
+                    android:textColor="#444444"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_gravity="center"
+                      android:orientation="vertical"
+                      android:id="@+id/actiongbar_layout_cs_right"
+                      android:layout_marginLeft="20dip"
+                      android:gravity="center_vertical"
+                      android:layout_toLeftOf="@+id/actiongbar_layout_lt_right"
+                >
+            <ImageView android:layout_width="36dip"
+                       android:layout_height="36dip"
+                       android:background="@drawable/sdk_toolbar_icon"
+                       android:layout_gravity="center_horizontal"
+                    />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:text="客服"
+                    android:textColor="#444444"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_gravity="center"
+                      android:orientation="vertical"
+                      android:id="@+id/actiongbar_layout_lt_right"
+                      android:layout_marginLeft="20dip"
+                      android:gravity="center_vertical"
+                      android:layout_alignParentRight="true"
+                >
+            <ImageView android:layout_width="36dip"
+                       android:layout_height="36dip"
+                       android:background="@drawable/sdk_toolbar_icon"
+                       android:layout_gravity="center_horizontal"
+                    />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:text="论坛"
+                    android:textColor="#444444"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

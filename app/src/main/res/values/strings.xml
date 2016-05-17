@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">2048</string>
+    <string name="header">2048</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="new_game">新游戏</string>
+
+    <string name="high_score">最高得分</string>
+    <string name="score">得分</string>
+    <string name="instructions">滑动移动数字. 2 + 2 = 4. 达到 2048.</string>
+    <string name="you_win">你赢啦!</string>
+    <string name="game_over">游戏结束!</string>
+    <string name="go_on">继续</string>
+    <string name="for_now">现在...</string>
+    <string name="endless">"无尽"模式</string>
+
+    <string name="download">下载</string>
+    <string name="download_loading">下载中...</string>
+
+    <string name="text_back">返回</string>
+    <string name="text_accountback">找回账号</string>
+    <string name="text_artificial">人工修改密码</string>
+    <string name="text_check_changeemail">修改邮箱确认</string>
+    <string name="text_cs">客服中心</string>
+    <string name="text_csinfo">提交详情</string>
+    <string name="text_csresult">提交成功</string>
+    <string name="text_copy_key">单号已复制到剪切板</string>
+    <string name="text_copy_image">截屏文件已保存至SDCard/endless/screenimages目录下</string>
+    <string name="text_account">账号</string>
+    <string name="text_howtochange_email">如何修改邮箱</string>
+    <string name="text_howtochange_phone">如何修改手机</string>
+    <string name="text_howtochange_pwd">如何修改密码</string>
+    <string name="text_howtochange_charge">充值未到账申诉</string>
+    <string name="text_howtochange_data">数据异常申诉</string>
+    <string name="text_howtochange_action">活动异常申诉</string>
+    <string name="text_howtochange_consultation">咨询及意见反馈</string>
+    <string name="text_howtochange_undevice">非常用设备</string>
+    <string name="text_howtochange_login_ca">卡机运行登录</string>
+
+    <string name="text_mycs">充值历史</string>
+    <string name="text_moredata">没有更多数据</string>
+    <string name="text_time_now">刚刚</string>
+    <string name="text_changephone">修改手机</string>
+    <string name="text_changeemail">修改邮箱</string>
+    <string name="text_notfind_image">图片没找到</string>
+    <string name="text_gameinfo">游戏信息</string>
+    <string name="text_upload_success">上传成功,请点击查看</string>
+    <string name="text_query">进度查询</string>
+    <string name="text_update_email">修改邮箱确认</string>
+    <string name="text_update_phone">如何修改手机</string>
+    <string name="text_notbind_phone">您没未绑定手机</string>
+    <string name="text_agree">游戏用户协议</string>
+    <string name="text_backpwd">找回密码</string>
+    <string name="text_form_error">格式不正确</string>
+    <string name="text_import">重要</string>
+    <string name="text_login">账号登录</string>
+    <string name="text_pwdback">密码找回</string>
+    <string name="text_changebind_phone">换绑手机</string>
+    <string name="text_input_newphone">输入需要绑定的新手机号</string>
+    <string name="text_tophone">将向手机号：</string>
+    <string name="text_sendsms">\n发送短信！</string>
+    <string name="text_phone_tip">为了您的账号安全，请绑定手机，还可享受更多服务</string>
+    <string name="text_phone">手机</string>
+    <string name="text_min_toget">秒后重新获取</string>
+    <string name="text_reget">重新获取</string>
+    <string name="text_phonenum">手机号</string>
+    <string name="text_binded">已绑定</string>
+    <string name="text_notcode">验证码不能为空</string>
+    <string name="text_city">城市</string>
+    <string name="text_nexttocomplete">, 还差一步完成</string>
+    <string name="text_binding_phone">正在绑定手机号：\n</string>
+    <string name="text_bind_game">绑定成功，祝您游戏愉快！</string>
+    <string name="text_formerror_pwd">密码格式不正确</string>
+    <string name="text_formerror_email">账号格式不正确</string>
+    <string name="text_need_register">您的账号未注册,\n是否注册为新账号</string>
+    <string name="text_enter">确定</string>
+    <string name="text_pidtobind_tip">该账号已存在，继续登录将清除当前试玩数据</string>
+    <string name="text_login_again">继续登录</string>
+    <string name="text_welcome">,欢迎您回来!</string>
+    <string name="text_welcome_quick">欢迎您回来</string>
+    <string name="text_modify_tip_1">好名字可以让你的朋友更容易记住你</string>
+    <string name="text_modify_nick">更改昵称</string>
+    <string name="text_mpdify_tip_2">正确的身份信息让你的账号更安全</string>
+    <string name="text_modify_card">更改身份信息</string>
+    <string name="text_modify_card_error">身份证号码错误</string>
+    <string name="text_register_endless">注册游戏账号</string>
+    <string name="text_register_account">注册账号</string>
+    <string name="text_register_quick">快速注册</string>
+    <string name="text_register_tip">,请重新登录</string>
+    <string name="text_setnew_pwd">设置新密码</string>
+    <string name="text_pwd_hint">请输入6-18位密码</string>
+    <string name="text_pwd_compare">新密码两次输入不一致</string>
+    <string name="text_acount">账号</string>
+    <string name="text_reseting_pwd">正在重置密码</string>
+    <string name="text_usercenter">用户中心</string>
+    <string name="text_exit_tip">您确定要注销账号吗？</string>
+    <string name="text_userinfo">个人信息</string>
+    <string name="text_def">默认</string>
+    <string name="text_male">男</string>
+    <string name="text_female">女</string>
+    <string name="text_sex">性别</string>
+    <string name="text_rechoice_image">重新选图</string>
+    <string name="text_verify_email">验证邮箱</string>
+    <string name="text_system_email">系统将向邮箱：\n</string>
+    <string name="text_send_email">发送一封邮件</string>
+    <string name="text_error_data">数据不能为空</string>
+    <string name="text_check">,请注意查收！</string>
+    <string name="text_required">* 为必填项</string>
+    <string name="text_auto_accountback">自助找回账号</string>
+    <string name="text_hb_accountback">人工找回账号</string>
+    <string name="text_account_dialog_tip">已有账号登录</string>
+    <string name="text_update_oldphone">修改认证手机</string>
+    <string name="text_update_oldemail">修改认证邮箱</string>
+    <string name="text_pwdback_tip">输入需要找回密码的账号</string>
+    <string name="text_emaiphone_hint">游戏账号</string>
+    <string name="text_next">下一步</string>
+    <string name="text_backpwd_tip">若忘记账号或绑定手机请联系客服</string>
+    <string name="text_backpwd_cs_phone">客服QQ:2975214870</string>
+    <string name="text_backpwd_cs_email"></string>
+    <string name="text_use_email">使用邮箱找回</string>
+    <string name="text_import_info">重要信息</string>
+    <string name="text_readed_tip">我已阅读上述信息，申请修改邮箱</string>
+    <string name="text_account_protected">账号处于受保护状态。</string>
+    <string name="text_changephone_code">更换绑定手机发送验证码</string>
+    <string name="text_input_code">输入短信验证码</string>
+    <string name="text_save">保存</string>
+    <string name="text_ordernum">工单号</string>
+    <string name="text_order_status">状态</string>
+    <string name="text_que_des">问题描述</string>
+    <string name="text_result_opera">处理结果</string>
+    <string name="text_submit_success_tip">恭喜您，问题提交成功</string>
+    <string name="text_ordernumis">单据号为：</string>
+    <string name="text_screenshot">截屏</string>
+    <string name="text_copy">复制</string>
+    <string name="text_enter_update">我已确认，申请修改该认证邮箱</string>
+    <string name="text_oldpwd_update">原始密码修改</string>
+    <string name="text_autoupdate_pwd">自助修改密码</string>
+    <string name="text_hbupdate_emailphone">申请人工修改该邮箱/手机</string>
+    <string name="text_input_email">请输入邮箱或账号</string>
+    <string name="text_input_pwd">请输入密码</string>
+    <string name="text_pwd">密码</string>
+    <string name="text_forget_pwd">忘记密码</string>
+    <string name="text_backaccount_login">找回账号/</string>
+    <string name="text_cs_login">还有其他问题？进入客服中心</string>
+    <string name="text_choice_image">选择图片</string>
+    <string name="text_local_images">本地相册</string>
+    <string name="text_camera">相机拍照</string>
+    <string name="text_choice_login">请选择登录方式</string>
+    <string name="text_quickgame">试 玩</string>
+    <string name="text_registerlogin">注 册 登 录</string>
+    <string name="text_mycs_num">充值成功</string>
+    <string name="text_mycs_cata">充值失败</string>
+    <string name="text_mycs_status">状态</string>
+    <string name="text_submit">提交</string>
+    <string name="text_input_phonecode">请输入验证码</string>
+    <string name="text_60m_get">60s后重新获取</string>
+    <string name="text_query_tip">请输入提交单据时生成的单据ID查询处理进度</string>
+    <string name="text_query_hint">单据ID</string>
+    <string name="text_find">查询</string>
+    <string name="text_input_trueemail">请输入邮箱或账号</string>
+    <string name="text_register_pwd_hint">6-18位数字或字母</string>
+    <string name="text_newpwd">新密码</string>
+    <string name="text_repeat">重 复</string>
+    <string name="text_repeat_newpwd">重复新密码</string>
+    <string name="text_oldpwd">旧密码</string>
+    <string name="text_email">邮箱</string>
+    <string name="text_bindnow">立刻绑定</string>
+    <string name="text_logout_account">注销账号</string>
+    <string name="text_modify_email">申请修改认证邮箱</string>
+    <string name="text_modify_phone">自助修改手机</string>
+    <string name="text_modify_hbphone">人工修改手机</string>
+    <string name="text_name">姓名</string>
+    <string name="text_birth">生日</string>
+    <string name="text_idcard">身份证</string>
+    <string name="text_address">居住地</string>
+    <string name="text_updatepwd">修改密码</string>
+    <string name="text_paylist">支付历史</string>
+    <string name="text_sendmodify_email">发送验证邮件</string>
+
+
+    <string name="text_timeout_error">连接异常,请重试!</string>
+    <string name="text_data_parse_error">数据解析出错!</string>
+    <string name="text_unknown_error">未知错误!</string>
+    <string name="text_network_faild_error">无法连接网络，请检查网络连接</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">下滑更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="cancel">取消</string>
+    <string name="text_bind_mid">绑定手机</string>
+    <string name="text_bind_right">个人信息</string>
+    <string name="text_bind_input">输入需要绑定的手机号</string>
+    <string name="text_bind_tips_1">绑定手机可以提高账号安全性</string>
+    <string name="text_bind_tips_2">现仅支持中国大陆手机号</string>
+    <string name="text_bind_btn_get">获取短信验证码</string>
+
+    <string name="text_code_mid">输入手机号</string>
+    <string name="text_code_right">输入验证码</string>
+    <string name="text_code_tips">温馨提示：</string>
+    <string name="text_code_tips_1">1.如果您5分钟内未收到邮件，建议您查看垃圾箱或尝试重新发送。</string>
+    <string name="text_code_tips_code">1.如果您1分钟内未收到短信，建议您尝试重新发送。</string>
+    <string name="text_code_tips_2">有任何问题请联系客服</string>
+    <string name="text_code_tips_3">客服QQ：2975214870</string>
+
+    <string name="text_login_mid">游戏</string>
+    <string name="text_login_right">返回游戏</string>
+    <string name="text_register_mid">注册游戏账号</string>
+    <string name="text_register_right">登录</string>
+    <string name="text_register_auto">快速注册</string>
+    <string name="text_register_tips">该账号尚未注册，请先完成注册。</string>
+    <string name="text_register_tips_2">注册即代表同意游戏《服务协议》</string>
+    <string name="text_agree_mid">游戏用户协议</string>
+    <string name="text_agree_right">注册</string>
+    <string name="cs_result_tips">您可以使用订单号进入【进度查询】或者登录进入【我的客服】查询相关进度，同时我们也会将处理结果发送至您的账号邮箱</string>
+
+    <string name="faq_pwd_1">通常修改密码的主要方式有三种:</string>
+    <string name="faq_pwd_4">1、您可以使用原始密码进行修改</string>
+    <string name="faq_pwd_2">2、原始密码处于不可用状态，同时认证手机或认证邮箱至少有一项可以使用</string>
+    <string name="faq_pwd_3">3、原始密码不能使用，认证手机或邮箱全部不能使用，此时需要您提交账号相关信息。申请人工修改该认证邮箱或手机，然后通过自助形式修改密码</string>
+
+    <string name="artificial_tip_1">游戏客服工作人员不会直接修改或索要您的登陆密码</string>
+    <string name="artificiak_tip_2">我们可以根据您填写的资料帮助您将认证手机或邮箱修改为可用状态。您可以通过自助形式修改密码。\n
+        中国大陆用户，如果您的手机能够正常接收短信，我们建议您修改认证手机。将有效提高您账号安全等级。\n如果您是海外用户，手机处于不可用状态，只能修改认证邮箱。如果您需要修改认证邮箱，请务必保证新提交的邮箱处于可用状态，修改邮箱成功后，登陆名将更新为新邮箱。老登陆名将不能使用。认证邮箱一年修改一次
+    </string>
+    <string name="account_back_tip">
+        如果您忘记了您的账号登录名，该账号绑定认证手机的情况下，可以通过认证手机进行自助找回账号登录名。如果您的账号没有绑定认证手机，或者手机号码不能正常接收短信。您可以提交指客服中心申请人工修改。
+    </string>
+    <string name="update_email_tip">认证邮箱暂时不能通过自助形式进行修改，您需提交表单给客服中心进行审核后进行修改。\n
+        修改后的邮箱处于“未认证状态”您需自助完成邮箱认证，但是可以再认证之前进行修改密码操作。\n
+        请务必确保新的邮件地址能够正常接收邮件。修改成功后新的邮件地址即可变更为登录名，原始登陆名将不能使用。
+    </string>
+    <string name="update_email_tip_2">认证邮箱1年仅能修改一次</string>
+    <string name="update_phone_tip">如果您的认证手机号码可以正常接收短信，建议您通过原手机号码进行自助修改
+        如果您的认证手机不能够正常接收短信，您可以通过客服中心申请人工修改。\n
+        人工修改后的手机号码处于未验证状态，需要您自助完成验证。
+    </string>
+
+    <string name="register_name_digits">
+        ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ
+    </string>
+
+</resources>

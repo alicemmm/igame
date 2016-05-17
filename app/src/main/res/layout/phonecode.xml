@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/public_bg">
+    <include layout="@layout/title"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:id="@+id/txt_binding"
+                    style="@style/text_login"
+                    android:text=""
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dip"
+                    android:paddingBottom="10dip"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/line"/>
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="@dimen/btn_relative"
+                            android:background="@color/text_white"
+                    >
+                <EditText
+                        android:id="@+id/edt_code"
+                        android:layout_width="150dip" android:layout_height="@dimen/btn_relative"
+                        android:hint="@string/text_input_phonecode"
+                        android:background="@color/transparent"
+                        android:paddingLeft="10dip"
+                        android:textColorHint="@color/text_def"
+                        android:textSize="@dimen/text_default"
+                        android:textColor="@color/text_black_33"
+                        android:phoneNumber="true"/>
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dip"
+                        android:gravity="center_vertical"
+                        >
+                    <TextView
+                            android:id="@+id/txt_time"
+                            style="@style/text_def"
+                            android:layout_below="@+id/txt_account_head"
+                            android:text="@string/text_60m_get"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/text_def"
+                            android:textSize="@dimen/text_default"
+                            android:background="@color/bg_endless_public"
+                            android:padding="3dip"
+                            />
+                </LinearLayout>
+
+            </RelativeLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/line"/>
+            <RelativeLayout
+                    android:id="@+id/rl_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/btn_relative"
+                    android:clickable="false"
+                    android:layout_marginTop="@dimen/height_35"
+                    android:background="@color/text_white"
+                    android:gravity="center_vertical|center">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="@dimen/text_default"
+                          android:text="@string/text_enter"
+                          android:id="@+id/txt_btn"
+                          android:background="@color/transparent"
+                        />
+            </RelativeLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:id="@+id/service_tip_code"
+                          android:layout_marginTop="@dimen/height_35"
+                    >
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:textColor="@color/text_grey_999999"
+                        android:text="@string/text_code_tips"
+                        android:layout_marginLeft="10dip"
+                        />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:padding="5dip"
+                              android:orientation="vertical"
+                              android:layout_marginLeft="5dip"
+                        >
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/text_grey_999999"
+                            android:text="@string/text_code_tips_code"
+                            />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/text_grey_999999"
+                            android:text="@string/text_code_tips_2"
+                            />
+
+                </LinearLayout>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:textColor="@color/text_grey_999999"
+                        android:text="@string/text_backpwd_cs_phone"
+                        android:layout_marginLeft="10dip"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:textColor="@color/text_grey_999999"
+                        android:text="@string/text_backpwd_cs_email"
+                        android:layout_marginTop="5dip"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginBottom="20dip"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

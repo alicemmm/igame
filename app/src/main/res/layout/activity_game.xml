@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userloginroot"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pay_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text_green"
+        android:text="Hello World,\n this is a Virtual Operation!"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="30dip"
+        android:background="@color/pl_title_back"
+        android:text="支付"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/restatr"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="30dip"
+        android:background="@color/pl_butoon_pressed"
+        android:text="重新启动游戏"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="30dip"
+        android:background="@color/pl_butoon_pressed"
+        android:text="用户中心"
+        android:textSize="21sp" />
+
+
+</LinearLayout>

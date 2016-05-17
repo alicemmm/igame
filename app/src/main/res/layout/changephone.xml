@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/public_bg">
+    <include layout="@layout/title"/>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:scrollbars="none">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                      android:orientation="vertical"
+                      android:layout_marginTop="10dip">
+            <RelativeLayout
+                    android:id="@+id/rl_title"
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    style="@style/public_padding">
+
+                <TextView
+                        android:id="@+id/txt_tip"
+                        android:text="@string/text_phonenum"
+                        style="@style/text_def"
+                        android:layout_alignParentLeft="true"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_tip"
+                        android:text="@string/text_account_protected"
+                        android:layout_marginTop="5dip"
+                        android:textColor="@color/text_grey_999999"
+                        android:textSize="@dimen/text_small"
+                        />
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/rl_send"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/btn_relative"
+                    android:clickable="true"
+                    android:gravity="center_vertical|center"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/text_white"
+                    >
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="@dimen/text_default"
+                          android:text="@string/text_changephone_code"
+                          android:textColor="@color/text_endless_red"
+                          android:id="@+id/txt_button_tip"
+                        />
+            </RelativeLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/line"
+                       android:layout_marginTop="@dimen/height_35"
+                    />
+            <EditText
+                    android:id="@+id/edt_phone"
+                    android:layout_width="match_parent" android:layout_height="@dimen/btn_relative"
+                    android:background="@color/transparent"
+                    android:hint="@string/text_input_code"
+                    android:paddingLeft="10dip"
+                    android:textColorHint="@color/text_pay"
+                    android:textSize="@dimen/text_default"
+                    android:lines="1"
+                    android:phoneNumber="true"
+                    android:textColor="@color/text_black_33"
+                    />
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/line"/>
+
+            <RelativeLayout
+                    android:id="@+id/rl_enter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/btn_relative"
+                    android:clickable="false"
+                    android:background="@color/text_white"
+                    android:gravity="center_vertical|center"
+                    android:layout_marginTop="@dimen/height_35"
+                    android:layout_marginBottom="10dip"
+                    >
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="@dimen/text_default"
+                          android:text="@string/text_enter"
+                          android:textColor="@color/text_def"
+                          android:id="@+id/txt_changepwd"
+                        />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

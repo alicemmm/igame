@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/bg_endless_public"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <include layout="@layout/pl_header"/>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+                <TextView android:text="请选择" style="@style/pl_order_info"
+                          android:layout_marginTop="20dip"/>
+            </LinearLayout>
+
+
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/pl_normal_line"
+                       android:layout_marginTop="10dip"
+                    />
+            <com.paycenter.ui.model.MeaListview
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@color/pl_normal_line"
+                    android:dividerHeight="0.5dip"
+                    android:cacheColorHint="#0000"
+                    android:paddingLeft="5dip"
+                    >
+            </com.paycenter.ui.model.MeaListview>
+            <ImageView android:layout_width="match_parent" android:layout_height="0.5dip"
+                       android:background="@color/pl_normal_line"
+                       android:layout_marginBottom="20dip"
+                    />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

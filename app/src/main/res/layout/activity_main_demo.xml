@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/userloginroot"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@color/public_bg">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World,\n this is a Virtual Operation!"
+            android:textSize="@dimen/text_login_title_size"
+            android:background="@color/text_green"
+    />
+    <Button
+            android:id="@+id/akey_sign"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:textSize="@dimen/text_login_title_size"
+            android:background="@drawable/bg_title"
+            android:layout_marginTop="30dip"
+    />
+
+    <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:text="个人中心"
+            android:textSize="@dimen/text_login_title_size"
+            android:background="@color/text_title_left"
+            android:layout_marginTop="30dip"
+    />
+    <Button
+            android:id="@+id/button_pay"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@color/text_green"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="支付"
+            android:textSize="@dimen/text_login_title_size"/>
+
+    <TextView
+            android:id="@+id/logtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+    />
+
+</LinearLayout>

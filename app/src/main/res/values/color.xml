@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_brown">#d6cdc4</color>
+    <color name="background">#faf8ef</color>
+
+    <drawable name="bg_title">#ff9900</drawable>
+    <drawable name="text_green">#4e9e1f</drawable>
+    <drawable name="text_green_light">#71b24e</drawable>
+    <color name="text_white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_dialog">#000000</color>
+    <!--<color name="text_title_left">#8d0000</color>-->
+    <color name="text_login">#505050</color>
+    <color name="text_black">#000000</color>
+    <!--<color name="text_green">#4e9e1f</color>-->
+    <color name="text_green_light">#71b24e</color>
+    <color name="public_bg">#f6f6f6</color>
+
+    <!--<color name="pay_bg">#fff8ec</color>-->
+    <color name="text_pay">#cccccc</color>
+
+    <color name="gameswhite">#FFFFFF</color>
+    <color name="rounded_container_border">#ffb7babb</color>
+
+
+    <color name="base_start_color_default">#ffffff</color>
+    <color name="base_end_color_default">#FFffff</color>
+
+    <color name="base_start_color_default2">#ff8800</color>
+    <color name="base_end_color_default2">#FF9900</color>
+
+    <color name="base_start_color_pressed">#fff8ec</color>
+    <color name="base_end_color_pressed">#fff8ec</color>
+
+
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+
+    <color name="pl_red_text">#8d0000</color>
+    <color name="pl_title_center">#ffffff</color>
+    <color name="pl_title_back">#ff9900</color>
+    <color name="pl_normal_text">#505050</color>
+    <color name="pl_tip_text">#848383</color>
+    <color name="pl_normal_line">#d3d3d3</color>
+    <color name="pl_butoon_pressed">#4b9e1f</color>
+    <color name="text_green">#4e9e1f</color>
+    <color name="pay_bg">#fff8ec</color>
+    <color name="text_title_left">#8d0000</color>
+
+    <color name="pl_background">#f6f6f6</color>
+
+
+    <color name="text_black_33">#333333</color>
+    <color name="bg_endless_public">#f6f6f6</color>
+    <color name="line">#c8c8c8</color>
+    <color name="text_grey_999999">#999999</color>
+    <color name="text_endless_red_clk">#c8c8c8</color>
+    <color name="text_endless_red">#999999</color>
+    <color name="text_endless_66">#666666</color>
+    <color name="color_endless_fff5e5">#fff5e5</color>
+    <color name="text_blue">#007aff</color>
+    <color name="bg_transparent_90">#ddffffff</color>
+    <color name="bg_dialog_click">#d8d8d8</color>
+    <color name="bg_dialog">#b0000000</color>
+    <color name="bg_toast">#ff4c01</color>
+
+    <color name="text_def">#cccccc</color>
+    <color name="text_click">#ff6600</color>
+    <color name="text_pay_after">#d1966f</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="jine">#FF4444</color>
+    <color name="tishi">#4E4E4E</color>
+    <color name="wenxintishi">#737378</color>
+
+
+</resources>

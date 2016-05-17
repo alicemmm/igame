@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_endless_public">
+    <include layout="@layout/pl_header"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:background="@color/color_endless_fff5e5">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/txt_pay_message"
+                  android:textColor="@color/text_pay_after"
+                  android:textSize="18sp"
+                  android:padding="10dip"
+                  android:layout_marginTop="10dip"
+                />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted_line"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:id="@+id/txt_pay_order"
+                  android:textColor="@color/text_pay_after"
+                  android:textSize="18sp"
+                  android:padding="10dip"
+                  android:layout_marginBottom="10dip"/>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted_line"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:id="@+id/txt_pay_cast"
+                  android:textColor="@color/text_pay_after"
+                  android:textSize="18sp"
+                  android:padding="10dip"
+                  android:layout_marginBottom="10dip"/>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted_line"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:id="@+id/txt_pay_des"
+                  android:textColor="@color/text_pay_after"
+                  android:textSize="18sp"
+                  android:padding="10dip"
+                  android:layout_marginBottom="10dip"/>
+
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:background="@color/pl_butoon_pressed"
+                      android:id="@+id/layout_1"
+                      android:layout_marginBottom="30dip"
+                      android:visibility="gone"
+                >
+            <TextView android:layout_width="wrap_content" android:layout_height="60dip"
+                      android:text="刷新"
+                      android:textColor="@color/gameswhite"
+                      android:textSize="17sp"
+                      android:layout_marginLeft="10dip"
+                      android:gravity="center_vertical"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+               android:background="@drawable/line_curve_n"/>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:background="@color/text_white"
+                  android:id="@+id/layout_2"
+                  android:gravity="center_vertical|center"
+                  android:layout_marginTop="@dimen/height_35"
+            >
+        <TextView android:layout_width="wrap_content" android:layout_height="@dimen/btn_relative"
+                  android:text="@string/pl_return"
+                  android:textColor="@color/text_black_33"
+                  android:textSize="@dimen/text_default"
+                  android:gravity="center_vertical"
+                />
+    </LinearLayout>
+</LinearLayout>

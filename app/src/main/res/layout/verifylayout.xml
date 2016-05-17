@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/public_bg">
+    <include layout="@layout/title"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:id="@+id/txt_binding"
+                    style="@style/text_login"
+                    android:text=""
+                    android:paddingLeft="5dip"
+                    android:paddingTop="20dip"
+                    />
+            <EditText
+                    android:id="@+id/email_edit"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:textColor="@color/text_black_33"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/text_default"
+                    android:layout_weight="1"
+                    android:inputType="textEmailAddress"
+                    android:padding="20dp"
+                    />
+            <RelativeLayout
+                    android:id="@+id/rl_send"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/btn_relative"
+                    android:clickable="true"
+                    android:layout_marginTop="20dip"
+                    android:background="@drawable/rl_selector_exit"
+                    android:gravity="center_vertical|center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="@dimen/text_default"
+                          android:text="@string/text_sendmodify_email"
+                          android:textColor="@color/text_endless_red"
+                        />
+            </RelativeLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:id="@+id/service_tip_email"
+                          android:layout_marginTop="@dimen/height_35">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:textColor="@color/text_grey_999999"
+                        android:text="@string/text_code_tips"
+                        android:layout_marginLeft="10dip"
+                        />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:padding="5dip"
+                              android:orientation="vertical"
+                              android:layout_marginLeft="5dip"
+                        >
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/text_grey_999999"
+                            android:text="@string/text_code_tips_1"
+                            />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/text_grey_999999"
+                            android:text="@string/text_code_tips_2"
+                            />
+
+                </LinearLayout>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:textColor="@color/text_grey_999999"
+                        android:text="@string/text_backpwd_cs_phone"
+                        android:layout_marginLeft="10dip"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:textColor="@color/text_grey_999999"
+                        android:text="@string/text_backpwd_cs_email"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginBottom="20dip"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

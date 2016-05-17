@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/zsht_BackgroundScrollViewStyle" >
+
+    <LinearLayout style="@style/zsht_OutmostLinearLayoutStyle" >
+
+        <FrameLayout style="@style/zsht_TitleStyle" >
+
+            <ImageView style="@style/zsht_InvisibleLineStyle" />
+  
+            <ImageView style="@style/zsht_TitleBackgroundStyle" />
+
+            <RelativeLayout style="@style/zsht_TitleLayoutStyle" >
+
+                <FrameLayout
+                    android:id="@+id/zsht_fram_title"
+                    style="@style/zsht_TitleFramLayoutStyle" >
+
+                    <TextView style="@style/zsht_TitleTextViewStyle" />
+
+                    <TextView
+                        android:id="@+id/zsht_tv_bankcard_agreement_back"
+                        style="@style/zsht_TitleBackButtonStyle" />
+                </FrameLayout>
+
+                <ImageView style="@style/zsht_TitleLineStyle" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <WebView
+            android:id="@+id/pp_webview_agreement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

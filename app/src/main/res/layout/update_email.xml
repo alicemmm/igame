@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/public_bg">
+    <include layout="@layout/title"/>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+                android:scrollbars="none">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                >
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_marginTop="10dip"
+                          android:background="@color/text_white"
+                          android:padding="10dip">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:text="@string/update_email_tip"
+                        android:id="@+id/textView"
+                        android:textColor="@color/text_grey_999999"
+                        />
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_small"
+                        android:text="@string/update_email_tip_2"
+                        android:id="@+id/textView"
+                        android:textColor="@color/text_endless_66"
+                        android:layout_marginTop="10dip"
+                        />
+            </LinearLayout>
+
+            <ImageView android:layout_width="fill_parent" android:layout_height="0.5dip"
+                       android:background="@color/line" android:layout_marginTop="@dimen/height_35"/>
+            <RelativeLayout
+                    android:id="@+id/rl_form_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btn_relative"
+                    android:background="@color/text_white"
+                    style="@style/padding_item"
+                    >
+                <TextView
+                        android:id="@+id/txt_account"
+                        android:text="@string/text_modify_email"
+                        style="@style/text_login"
+                        android:layout_marginLeft="5dip"
+                        />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:background="@drawable/arrow_right"
+                           android:layout_alignParentRight="true"
+                           android:layout_centerVertical="true"
+                           android:layout_marginRight="5dip"/>
+            </RelativeLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="0.5dip"
+                       android:background="@color/line"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@drawable/bg">
+
+   <LinearLayout android:id="@+id/mainlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+    
+       <LinearLayout android:id="@+id/free1layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"></LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/titlelayout"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                >
+                
+                    <LinearLayout 
+	                    android:id="@+id/logolayout"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:orientation="vertical"
+                        >
+		                <ImageView
+		                    android:id="@+id/logo"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:src="@drawable/logo"
+		                    android:scaleType="fitStart"
+		                    android:layout_centerVertical="true"
+		                    />
+	                </LinearLayout>
+	                
+					<LinearLayout 	
+					    android:id="@+id/free2layout"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:orientation="vertical"
+                        >
+                    </LinearLayout>
+
+	                <LinearLayout 
+   					    android:id="@+id/WLINElayout"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:orientation="vertical"
+		                android:background="@drawable/wline"
+                        >
+		                <ImageView
+		                    android:id="@+id/WLINE"
+		                    android:layout_width="fill_parent"
+		                    android:layout_height="fill_parent"
+		                    android:background="@drawable/wline"
+							/>
+	                </LinearLayout>
+	                
+	                <LinearLayout 
+   					    android:id="@+id/SMSPAYlayout"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:orientation="vertical"
+                        >
+       	                <TextView
+		                    android:id="@+id/SMSPAY"
+		                    android:layout_width="fill_parent"
+		                    android:layout_height="fill_parent"
+		                    android:gravity="center"
+		                    android:textColor="@color/white"
+		                    android:text="短信支付" 
+		                   	/>
+	                </LinearLayout>
+
+            	</LinearLayout>
+            	
+         <LinearLayout android:id="@+id/free3layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"></LinearLayout>
+         
+         <LinearLayout
+             android:id="@+id/dibanwlayout"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:weightSum="200" >
+	         
+             <TextView android:id="@+id/text11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="10" android:text=" "/>
+             
+	         <LinearLayout
+	             android:id="@+id/dibanhlayout"
+	             android:layout_width="wrap_content"
+	             android:layout_height="250dp"
+	             android:orientation="horizontal"
+	             android:layout_weight="180"
+	             android:weightSum="50"
+	             android:background="@drawable/dibian"
+	             >
+                 <TextView android:id="@+id/text111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="10"  android:text=" "/>
+             	 <TextView
+                    android:id="@+id/Msg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="@color/tishi" 
+                    android:layout_weight="30"
+                    android:text="数据加载失败,请重新尝试"
+                    android:textSize="20sp"
+                   	/>
+             	 <TextView android:id="@+id/text112" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="10" android:text=" "/>
+	       	 </LinearLayout>
+             <TextView android:id="@+id/text12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="10" android:text=" "/>
+     	 </LinearLayout>
+         
+         <LinearLayout android:id="@+id/free4layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"></LinearLayout>
+         
+         <LinearLayout
+	         android:id="@+id/buttonlayout"
+	         android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:orientation="horizontal"
+	         android:weightSum="200"
+		 >
+             <TextView android:id="@+id/text13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="25" android:text=" "/>
+         	 <Button android:id="@+id/Pay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_weight="150" android:background="@layout/mainbuttonpress" android:text="确 认" android:textSize="23sp" android:textColor="@color/white"/>
+         	 <TextView android:id="@+id/text14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="25" android:text=" "/>
+         </LinearLayout>
+   	</LinearLayout>
+   	
+         <TextView android:id="@+id/wenxininfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:text="        温馨提示:" android:textColor="@color/wenxintishi" android:layout_above="@+id/wenxininfo1"/>
+         <TextView android:id="@+id/wenxininfo1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:text="        支付成功后您会收到短信通知" android:textColor="@color/wenxintishi" android:layout_above="@+id/wenxininfo2"/>
+         <TextView android:id="@+id/wenxininfo2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:text="        24H客服热线:4009205088" android:textColor="@color/wenxintishi" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

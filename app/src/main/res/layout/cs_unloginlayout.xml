@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/public_bg">
+    <include layout="@layout/title"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+                android:scrollbars="none">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                >
+            <TextView
+                    android:id="@+id/txt_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btn_relative"
+                    android:gravity="center_vertical"
+                    style="@style/text_login"
+                    android:padding="10dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    />
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:background="@color/public_bg">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:background="@color/text_white">
+
+                    <ImageView android:layout_width="fill_parent" android:layout_height="0.5dip"
+                               android:background="@color/line"/>
+                    <RelativeLayout
+                            android:id="@+id/rl_cs_pwd"
+                            android:background="@color/text_white"
+                            style="@style/user_padding"
+                            >
+                        <TextView
+                                android:text="@string/text_howtochange_pwd"
+                                style="@style/text_login"
+                                android:layout_alignParentLeft="true"
+                                />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                   android:background="@drawable/arrow_right"
+                                   android:layout_alignParentRight="true"
+                                   android:layout_centerVertical="true"
+                                   android:layout_marginRight="5dip"/>
+                    </RelativeLayout>
+                    <ImageView
+                            android:layout_width="fill_parent" android:layout_height="0.5dip"
+                            android:layout_marginLeft="10dip"
+                            android:background="@color/line"
+                            />
+                    <RelativeLayout
+                            android:id="@+id/rl_cs_email"
+                            android:background="@color/text_white"
+                            style="@style/user_padding"
+                            >
+                        <TextView
+                                android:id="@+id/password_txt"
+                                android:text="@string/text_howtochange_email"
+                                style="@style/text_login"
+                                android:layout_alignParentLeft="true"
+                                />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                   android:background="@drawable/arrow_right"
+                                   android:layout_alignParentRight="true"
+                                   android:layout_centerVertical="true"
+                                   android:layout_marginRight="5dip"/>
+                    </RelativeLayout>
+                    <ImageView android:layout_width="fill_parent" android:layout_height="0.5dip"
+                               android:layout_marginLeft="10dip"
+                               android:background="@color/line"
+                               android:id="@+id/img_line"
+                            />
+                    <RelativeLayout
+                            android:id="@+id/rl_cs_phone"
+                            android:background="@color/text_white"
+                            style="@style/user_padding"
+                            >
+                        >
+                        <TextView
+                                android:id="@+id/password_txt"
+                                android:text="@string/text_howtochange_phone"
+                                style="@style/text_login"
+                                android:layout_alignParentLeft="true"
+                                />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                   android:background="@drawable/arrow_right"
+                                   android:layout_alignParentRight="true"
+                                   android:layout_centerVertical="true"
+                                   android:layout_marginRight="5dip"/>
+                    </RelativeLayout>
+                    <ImageView android:layout_width="fill_parent" android:layout_height="0.5dip"
+                               android:background="@color/line"/>
+                </LinearLayout>
+
+                <ImageView android:layout_width="fill_parent" android:layout_height="0.5dip"
+                           android:background="@color/line"
+                           android:id="@+id/img_line"
+                           android:layout_marginTop="10dip"
+                        />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:background="@color/text_white">
+                    <RelativeLayout
+                            android:id="@+id/rl_cs_query"
+                            android:background="@color/text_white"
+                            style="@style/user_padding"
+                            >
+                        <TextView
+                                android:id="@+id/password_txt"
+                                android:text="@string/text_query"
+                                style="@style/text_login"
+                                android:layout_alignParentLeft="true"
+                                />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                   android:background="@drawable/arrow_right"
+                                   android:layout_alignParentRight="true"
+                                   android:layout_centerVertical="true"
+                                   android:layout_marginRight="5dip"/>
+                    </RelativeLayout>
+                    <ImageView android:layout_width="fill_parent" android:layout_height="0.5dip"
+                               android:background="@color/line"
+                            />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

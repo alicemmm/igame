@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_endless_public">
+    <include layout="@layout/title"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:background="@color/text_white">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="@color/color_endless_fff5e5">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:id="@+id/txt_account_cs"
+                      android:paddingBottom="20dip"
+                      android:paddingTop="@dimen/height_35"
+                      android:textColor="@color/text_endless_red"
+                      android:textSize="@dimen/text_title"
+                      android:paddingLeft="10dip"
+                      android:paddingRight="10dip"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dip"
+                    android:visibility="gone"
+            >
+                <TextView
+                        android:id="@+id/rb01"
+                        style="@style/menu_item_vf"
+                        android:text="@string/text_mycs_num"
+                        android:textColor="@color/base_start_color_default2"
+                        android:textSize="@dimen/text_default"/>
+                <TextView
+                        android:id="@+id/rb02"
+                        style="@style/menu_item_vf"
+                        android:text="@string/text_mycs_cata"
+                        android:textSize="@dimen/text_default"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                   android:background="@drawable/line_curve_n"/>
+        <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/transparent"
+                android:layout_marginTop="5dip"
+                android:cacheColorHint="#0000"
+        >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_endless_public">
+    <include layout="@layout/title"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <com.game.android.ui.model.MeaListview
+                    android:id="@+id/listview_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="#0000"
+                    android:divider="@color/line"
+                    android:dividerHeight="@dimen/line_height"
+                    />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
